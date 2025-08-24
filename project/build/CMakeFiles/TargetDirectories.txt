@@ -1,0 +1,13 @@
+/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/application/CMakeFiles/application.dir
+/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/application/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/application/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/middleware/CMakeFiles/middleware.dir
+/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/middleware/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/middleware/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/driver/CMakeFiles/driver.dir
+/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/driver/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/driver/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/interfaces/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/interfaces/CMakeFiles/rebuild_cache.dir

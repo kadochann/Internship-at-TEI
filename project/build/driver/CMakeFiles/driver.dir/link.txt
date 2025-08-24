@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdriver.a CMakeFiles/driver.dir/gpio/gpio.c.o CMakeFiles/driver.dir/uart/uart.c.o CMakeFiles/driver.dir/timer/timer.c.o
+/usr/bin/ranlib libdriver.a

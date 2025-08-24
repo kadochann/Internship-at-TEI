@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmiddleware.a CMakeFiles/middleware.dir/auth_midware/auth_midware.c.o CMakeFiles/middleware.dir/storage/storage.c.o CMakeFiles/middleware.dir/utils/utils.c.o
+/usr/bin/ranlib libmiddleware.a

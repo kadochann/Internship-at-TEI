@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/application.dir/main/main.c.o CMakeFiles/application.dir/commands/commands.c.o CMakeFiles/application.dir/scheduler/scheduler.c.o CMakeFiles/application.dir/state_machine/state_machine.c.o -o application  ../middleware/libmiddleware.a ../driver/libdriver.a ../middleware/libmiddleware.a ../driver/libdriver.a 
