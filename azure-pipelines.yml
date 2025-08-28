@@ -1,0 +1,47 @@
+stages:
+  - build
+  - deploy
+  #- test
+  - sonar
+
+variables:
+  SONARQUBE_HOST_URL: '
+  SONARQUBE_LOGIN: ''
+
+BUILD:
+  stage: build
+  script:
+    - git config --global --add safe.directory C:/Users/Public/GitLab-Runner/builds/xsgWW-Mx/0/deneme
+    - git clone REPO SSH 
+
+DEPLOY:
+  stage : deploy
+  script :  
+    - git submodule init 
+    - git submodule sync
+    - git submodule update
+
+#TEST:
+  #stage : test
+  #script : 
+    #- mkdir build
+    #- cd build
+    #- cmake
+    #- cmake ..
+    #- cmake --build .
+    #- cd Debug
+    #- ls
+    #- ./MyExecutable 
+
+SONARQUBE:
+  stage: sonar
+  script:
+    - mkdir build
+    - cmake -S . -B build
+    - build-wrapper-win-x86-64.exe --out-dir build-wrapper-output-directory cmake --build build
+    - sonar-scanner.bat -D"sonar.projectKey=navigation" -D"sonar.sources=./" -D"sonar.host.url=url" -D"sonar.login=adi"
+
+  only: 
+    - merge_requests
+    - master 
+    - deneme_for_sonar_submodule #branch adı
