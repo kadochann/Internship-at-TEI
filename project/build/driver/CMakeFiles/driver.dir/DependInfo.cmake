@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/Casper/Desktop/TEI_staj/project/driver/gpio/gpio.c" "driver/CMakeFiles/driver.dir/gpio/gpio.c.o" "gcc" "driver/CMakeFiles/driver.dir/gpio/gpio.c.o.d"
-  "/mnt/c/Users/Casper/Desktop/TEI_staj/project/driver/timer/timer.c" "driver/CMakeFiles/driver.dir/timer/timer.c.o" "gcc" "driver/CMakeFiles/driver.dir/timer/timer.c.o.d"
-  "/mnt/c/Users/Casper/Desktop/TEI_staj/project/driver/uart/uart.c" "driver/CMakeFiles/driver.dir/uart/uart.c.o" "gcc" "driver/CMakeFiles/driver.dir/uart/uart.c.o.d"
+  "/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/driver/gpio/gpio.c" "driver/CMakeFiles/driver.dir/gpio/gpio.c.o" "gcc" "driver/CMakeFiles/driver.dir/gpio/gpio.c.o.d"
+  "/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/driver/timer/timer.c" "driver/CMakeFiles/driver.dir/timer/timer.c.o" "gcc" "driver/CMakeFiles/driver.dir/timer/timer.c.o.d"
+  "/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/driver/uart/uart.c" "driver/CMakeFiles/driver.dir/uart/uart.c.o" "gcc" "driver/CMakeFiles/driver.dir/uart/uart.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

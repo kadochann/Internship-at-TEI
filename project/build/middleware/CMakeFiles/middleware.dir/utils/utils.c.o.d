@@ -1,7 +1,7 @@
 middleware/CMakeFiles/middleware.dir/utils/utils.c.o: \
- /mnt/c/Users/Casper/Desktop/TEI_staj/project/middleware/utils/utils.c \
+ /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/middleware/utils/utils.c \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/Casper/Desktop/TEI_staj/project/middleware/utils/utils.h \
+ /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/middleware/utils/utils.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -29,4 +29,4 @@ middleware/CMakeFiles/middleware.dir/utils/utils.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /mnt/c/Users/Casper/Desktop/TEI_staj/project/driver/timer/timer.h
+ /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/driver/timer/timer.h

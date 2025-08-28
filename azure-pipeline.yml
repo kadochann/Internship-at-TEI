@@ -1,0 +1,139 @@
+# azure-pipelines.yml
+# Azure DevOps (Windows) eşleniği
+
+trigger:
+  branches:
+    include:
+      - master
+      - deneme_for_sonar_submodule
+
+# GitLab'daki "only: merge_requests" eşleniği:
+pr:
+  branches:
+    include:
+      - master
+      - deneme_for_sonar_submodule
+
+variables:
+  # İstersen bunları Library -> Variable Group veya Pipeline Variables / Secret olarak tanımla
+  SONAR_PROJECT_KEY: 'navigation'
+  SONAR_HOST_URL: 'https://your-sonarqube-url'   # ör: http://sonarqube.local:9000
+  SONAR_TOKEN: '$(SONARQUBE_LOGIN)'              # Secret variable adı SONARQUBE_LOGIN olsun
+  # CMake ayarları
+  BUILD_DIR: 'build'
+
+stages:
+  - stage: build
+    displayName: 'BUILD'
+    jobs:
+      - job: build
+        pool:
+          vmImage: 'windows-latest'
+        steps:
+          # Repo otomatik checkout edilir; submodule'lar için recursive aç
+          - checkout: self
+            submodules: recursive
+
+          #(İstiyorsan özel bir repo klonla: GitLab'daki 'git clone REPO SSH' karşılığı)
+          # - powershell: |
+          #     git clone <REPO-SSH-URL>
+          #   displayName: 'Clone extra repo (optional)'
+
+          - powershell: |
+                git clone https://kadochann@dev.azure.com/kadochann/Internship_at_TEI/_git/Internship_at_TEI
+                New-Item -ItemType Directory -Force -Path "$(BUILD_DIR)" | Out-Null 
+                cmake -S . -B "$(BUILD_DIR)"
+                cmake --build "$(BUILD_DIR)" --config Release
+            displayName: 'CMake Configure & Build (Release)'
+
+  - stage: deploy
+    displayName: 'DEPLOY'
+    dependsOn: build
+    condition: succeeded()
+    jobs:
+      - job: deploy
+        pool:
+          vmImage: 'windows-latest'
+        steps:
+          # Git submodule işlemleri Azure'da checkout ile geldiği için genellikle gerekmez.
+          # Yine de bire bir eşlemek istersen:
+          - powershell: |
+              git submodule init
+              git submodule sync
+              git submodule update --recursive
+            displayName: 'Sync submodules (if needed)'
+
+          # Buraya gerçek deploy adımlarını ekle
+          - powershell: |
+              Write-Host "Deploy steps go here..."
+            displayName: 'Deploy placeholder'
+
+  #İstersen TEST aşamasını aç
+  - stage: test
+    displayName: 'TEST'
+    dependsOn: build
+    condition: succeeded()
+    jobs:
+      - job: test
+        pool:
+          vmImage: 'windows-latest'
+        steps:
+          - powershell: |
+              New-Item -ItemType Directory -Force -Path build | Out-Null
+              cmake -S . -B build
+              cmake --build build --config Debug
+              Get-ChildItem build\Debug
+              ./build/Debug/MyExecutable.exe
+            displayName: 'Build & Run tests'
+
+  # - stage: sonar
+  #   displayName: 'SONARQUBE'
+  #   dependsOn:
+  #     - build
+  #   condition: succeeded()
+  #   jobs:
+  #     - job: sonar
+  #       pool:
+  #         vmImage: 'windows-latest'
+  #       steps:
+  #         - checkout: self
+  #           submodules: recursive
+
+  #         SonarQube Service Connection kullanıyorsan (önerilir):
+  #         Project Settings -> Service connections -> "SonarQube" oluştur.
+  #         Aşağıdaki görevler "SonarQube" connection name'i ile çalışır.
+  #         - task: SonarQubePrepare@7
+  #           displayName: 'Prepare SonarQube (CLI mode for C/C++)'
+  #           inputs:
+  #             SonarQube: 'SonarQube'                 # Service connection adı
+  #             scannerMode: 'CLI'
+  #             configMode: 'manual'
+  #             cliProjectKey: '$(SONAR_PROJECT_KEY)'
+  #             cliProjectName: '$(SONAR_PROJECT_KEY)'
+  #             cliSources: '.'
+  #             extraProperties: |
+  #               sonar.host.url=$(SONAR_HOST_URL)
+  #               sonar.login=$(SONAR_TOKEN)
+  #               C/C++ için build-wrapper output klasörü:
+  #               sonar.cfamily.build-wrapper-output=build-wrapper-output-directory
+
+  #         build-wrapper ile derleme (C/C++ için şart)
+  #         Not: build-wrapper-win-x86-64.exe ajan üzerinde erişilebilir olmalı.
+  #         Genelde SonarQube sunucundan indirip arşivini ajan image’ına koyarsın
+  #         veya repoya tools/ altına ekleyebilirsin. Burada repoda olduğunu varsaydık.
+  #         - powershell: |
+  #             if (-not (Test-Path ".\build-wrapper-win-x86-64.exe")) {
+  #               Write-Error "build-wrapper-win-x86-64.exe bulunamadı. Aracı PATH'e ekleyin veya repo/agent'a koyun."
+  #             }
+  #             New-Item -ItemType Directory -Force -Path "build" | Out-Null
+  #             cmake -S . -B build
+  #             .\build-wrapper-win-x86-64.exe --out-dir build-wrapper-output-directory cmake --build build --config Release
+  #           displayName: 'Build with Sonar build-wrapper'
+
+  #         - task: SonarQubeAnalyze@7
+  #           displayName: 'Run SonarQube Analysis'
+
+  #         - task: SonarQubePublish@7
+  #           displayName: 'Publish Quality Gate'
+  #           inputs:
+  #             pollingTimeoutSec: '300'

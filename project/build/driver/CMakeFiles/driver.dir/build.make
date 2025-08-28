@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Casper/Desktop/TEI_staj/project
+CMAKE_SOURCE_DIR = /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Casper/Desktop/TEI_staj/project/build
+CMAKE_BINARY_DIR = /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build
 
 # Include any dependencies generated for this target.
 include driver/CMakeFiles/driver.dir/depend.make
@@ -70,46 +70,46 @@ include driver/CMakeFiles/driver.dir/progress.make
 include driver/CMakeFiles/driver.dir/flags.make
 
 driver/CMakeFiles/driver.dir/gpio/gpio.c.o: driver/CMakeFiles/driver.dir/flags.make
-driver/CMakeFiles/driver.dir/gpio/gpio.c.o: /mnt/c/Users/Casper/Desktop/TEI_staj/project/driver/gpio/gpio.c
+driver/CMakeFiles/driver.dir/gpio/gpio.c.o: /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/driver/gpio/gpio.c
 driver/CMakeFiles/driver.dir/gpio/gpio.c.o: driver/CMakeFiles/driver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/CMakeFiles/driver.dir/gpio/gpio.c.o"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/driver && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT driver/CMakeFiles/driver.dir/gpio/gpio.c.o -MF CMakeFiles/driver.dir/gpio/gpio.c.o.d -o CMakeFiles/driver.dir/gpio/gpio.c.o -c /mnt/c/Users/Casper/Desktop/TEI_staj/project/driver/gpio/gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object driver/CMakeFiles/driver.dir/gpio/gpio.c.o"
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/driver && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT driver/CMakeFiles/driver.dir/gpio/gpio.c.o -MF CMakeFiles/driver.dir/gpio/gpio.c.o.d -o CMakeFiles/driver.dir/gpio/gpio.c.o -c /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/driver/gpio/gpio.c
 
 driver/CMakeFiles/driver.dir/gpio/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/driver.dir/gpio/gpio.c.i"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/driver && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Casper/Desktop/TEI_staj/project/driver/gpio/gpio.c > CMakeFiles/driver.dir/gpio/gpio.c.i
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/driver && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/driver/gpio/gpio.c > CMakeFiles/driver.dir/gpio/gpio.c.i
 
 driver/CMakeFiles/driver.dir/gpio/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/driver.dir/gpio/gpio.c.s"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/driver && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Casper/Desktop/TEI_staj/project/driver/gpio/gpio.c -o CMakeFiles/driver.dir/gpio/gpio.c.s
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/driver && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/driver/gpio/gpio.c -o CMakeFiles/driver.dir/gpio/gpio.c.s
 
 driver/CMakeFiles/driver.dir/uart/uart.c.o: driver/CMakeFiles/driver.dir/flags.make
-driver/CMakeFiles/driver.dir/uart/uart.c.o: /mnt/c/Users/Casper/Desktop/TEI_staj/project/driver/uart/uart.c
+driver/CMakeFiles/driver.dir/uart/uart.c.o: /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/driver/uart/uart.c
 driver/CMakeFiles/driver.dir/uart/uart.c.o: driver/CMakeFiles/driver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object driver/CMakeFiles/driver.dir/uart/uart.c.o"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/driver && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT driver/CMakeFiles/driver.dir/uart/uart.c.o -MF CMakeFiles/driver.dir/uart/uart.c.o.d -o CMakeFiles/driver.dir/uart/uart.c.o -c /mnt/c/Users/Casper/Desktop/TEI_staj/project/driver/uart/uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object driver/CMakeFiles/driver.dir/uart/uart.c.o"
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/driver && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT driver/CMakeFiles/driver.dir/uart/uart.c.o -MF CMakeFiles/driver.dir/uart/uart.c.o.d -o CMakeFiles/driver.dir/uart/uart.c.o -c /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/driver/uart/uart.c
 
 driver/CMakeFiles/driver.dir/uart/uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/driver.dir/uart/uart.c.i"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/driver && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Casper/Desktop/TEI_staj/project/driver/uart/uart.c > CMakeFiles/driver.dir/uart/uart.c.i
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/driver && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/driver/uart/uart.c > CMakeFiles/driver.dir/uart/uart.c.i
 
 driver/CMakeFiles/driver.dir/uart/uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/driver.dir/uart/uart.c.s"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/driver && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Casper/Desktop/TEI_staj/project/driver/uart/uart.c -o CMakeFiles/driver.dir/uart/uart.c.s
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/driver && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/driver/uart/uart.c -o CMakeFiles/driver.dir/uart/uart.c.s
 
 driver/CMakeFiles/driver.dir/timer/timer.c.o: driver/CMakeFiles/driver.dir/flags.make
-driver/CMakeFiles/driver.dir/timer/timer.c.o: /mnt/c/Users/Casper/Desktop/TEI_staj/project/driver/timer/timer.c
+driver/CMakeFiles/driver.dir/timer/timer.c.o: /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/driver/timer/timer.c
 driver/CMakeFiles/driver.dir/timer/timer.c.o: driver/CMakeFiles/driver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object driver/CMakeFiles/driver.dir/timer/timer.c.o"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/driver && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT driver/CMakeFiles/driver.dir/timer/timer.c.o -MF CMakeFiles/driver.dir/timer/timer.c.o.d -o CMakeFiles/driver.dir/timer/timer.c.o -c /mnt/c/Users/Casper/Desktop/TEI_staj/project/driver/timer/timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object driver/CMakeFiles/driver.dir/timer/timer.c.o"
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/driver && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT driver/CMakeFiles/driver.dir/timer/timer.c.o -MF CMakeFiles/driver.dir/timer/timer.c.o.d -o CMakeFiles/driver.dir/timer/timer.c.o -c /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/driver/timer/timer.c
 
 driver/CMakeFiles/driver.dir/timer/timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/driver.dir/timer/timer.c.i"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/driver && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Casper/Desktop/TEI_staj/project/driver/timer/timer.c > CMakeFiles/driver.dir/timer/timer.c.i
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/driver && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/driver/timer/timer.c > CMakeFiles/driver.dir/timer/timer.c.i
 
 driver/CMakeFiles/driver.dir/timer/timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/driver.dir/timer/timer.c.s"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/driver && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Casper/Desktop/TEI_staj/project/driver/timer/timer.c -o CMakeFiles/driver.dir/timer/timer.c.s
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/driver && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/driver/timer/timer.c -o CMakeFiles/driver.dir/timer/timer.c.s
 
 # Object files for target driver
 driver_OBJECTS = \
@@ -125,19 +125,19 @@ driver/libdriver.a: driver/CMakeFiles/driver.dir/uart/uart.c.o
 driver/libdriver.a: driver/CMakeFiles/driver.dir/timer/timer.c.o
 driver/libdriver.a: driver/CMakeFiles/driver.dir/build.make
 driver/libdriver.a: driver/CMakeFiles/driver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libdriver.a"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/driver && $(CMAKE_COMMAND) -P CMakeFiles/driver.dir/cmake_clean_target.cmake
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/driver.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libdriver.a"
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/driver && $(CMAKE_COMMAND) -P CMakeFiles/driver.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/driver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 driver/CMakeFiles/driver.dir/build: driver/libdriver.a
 .PHONY : driver/CMakeFiles/driver.dir/build
 
 driver/CMakeFiles/driver.dir/clean:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/driver && $(CMAKE_COMMAND) -P CMakeFiles/driver.dir/cmake_clean.cmake
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/driver && $(CMAKE_COMMAND) -P CMakeFiles/driver.dir/cmake_clean.cmake
 .PHONY : driver/CMakeFiles/driver.dir/clean
 
 driver/CMakeFiles/driver.dir/depend:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Casper/Desktop/TEI_staj/project /mnt/c/Users/Casper/Desktop/TEI_staj/project/driver /mnt/c/Users/Casper/Desktop/TEI_staj/project/build /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/driver /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/driver/CMakeFiles/driver.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/driver /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/driver /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/driver/CMakeFiles/driver.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : driver/CMakeFiles/driver.dir/depend
 

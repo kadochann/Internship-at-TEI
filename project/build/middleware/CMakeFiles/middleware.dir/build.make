@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Casper/Desktop/TEI_staj/project
+CMAKE_SOURCE_DIR = /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Casper/Desktop/TEI_staj/project/build
+CMAKE_BINARY_DIR = /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build
 
 # Include any dependencies generated for this target.
 include middleware/CMakeFiles/middleware.dir/depend.make
@@ -70,46 +70,46 @@ include middleware/CMakeFiles/middleware.dir/progress.make
 include middleware/CMakeFiles/middleware.dir/flags.make
 
 middleware/CMakeFiles/middleware.dir/auth_midware/auth_midware.c.o: middleware/CMakeFiles/middleware.dir/flags.make
-middleware/CMakeFiles/middleware.dir/auth_midware/auth_midware.c.o: /mnt/c/Users/Casper/Desktop/TEI_staj/project/middleware/auth_midware/auth_midware.c
+middleware/CMakeFiles/middleware.dir/auth_midware/auth_midware.c.o: /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/middleware/auth_midware/auth_midware.c
 middleware/CMakeFiles/middleware.dir/auth_midware/auth_midware.c.o: middleware/CMakeFiles/middleware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object middleware/CMakeFiles/middleware.dir/auth_midware/auth_midware.c.o"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/middleware && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT middleware/CMakeFiles/middleware.dir/auth_midware/auth_midware.c.o -MF CMakeFiles/middleware.dir/auth_midware/auth_midware.c.o.d -o CMakeFiles/middleware.dir/auth_midware/auth_midware.c.o -c /mnt/c/Users/Casper/Desktop/TEI_staj/project/middleware/auth_midware/auth_midware.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object middleware/CMakeFiles/middleware.dir/auth_midware/auth_midware.c.o"
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/middleware && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT middleware/CMakeFiles/middleware.dir/auth_midware/auth_midware.c.o -MF CMakeFiles/middleware.dir/auth_midware/auth_midware.c.o.d -o CMakeFiles/middleware.dir/auth_midware/auth_midware.c.o -c /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/middleware/auth_midware/auth_midware.c
 
 middleware/CMakeFiles/middleware.dir/auth_midware/auth_midware.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/middleware.dir/auth_midware/auth_midware.c.i"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/middleware && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Casper/Desktop/TEI_staj/project/middleware/auth_midware/auth_midware.c > CMakeFiles/middleware.dir/auth_midware/auth_midware.c.i
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/middleware && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/middleware/auth_midware/auth_midware.c > CMakeFiles/middleware.dir/auth_midware/auth_midware.c.i
 
 middleware/CMakeFiles/middleware.dir/auth_midware/auth_midware.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/middleware.dir/auth_midware/auth_midware.c.s"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/middleware && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Casper/Desktop/TEI_staj/project/middleware/auth_midware/auth_midware.c -o CMakeFiles/middleware.dir/auth_midware/auth_midware.c.s
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/middleware && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/middleware/auth_midware/auth_midware.c -o CMakeFiles/middleware.dir/auth_midware/auth_midware.c.s
 
 middleware/CMakeFiles/middleware.dir/storage/storage.c.o: middleware/CMakeFiles/middleware.dir/flags.make
-middleware/CMakeFiles/middleware.dir/storage/storage.c.o: /mnt/c/Users/Casper/Desktop/TEI_staj/project/middleware/storage/storage.c
+middleware/CMakeFiles/middleware.dir/storage/storage.c.o: /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/middleware/storage/storage.c
 middleware/CMakeFiles/middleware.dir/storage/storage.c.o: middleware/CMakeFiles/middleware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object middleware/CMakeFiles/middleware.dir/storage/storage.c.o"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/middleware && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT middleware/CMakeFiles/middleware.dir/storage/storage.c.o -MF CMakeFiles/middleware.dir/storage/storage.c.o.d -o CMakeFiles/middleware.dir/storage/storage.c.o -c /mnt/c/Users/Casper/Desktop/TEI_staj/project/middleware/storage/storage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object middleware/CMakeFiles/middleware.dir/storage/storage.c.o"
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/middleware && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT middleware/CMakeFiles/middleware.dir/storage/storage.c.o -MF CMakeFiles/middleware.dir/storage/storage.c.o.d -o CMakeFiles/middleware.dir/storage/storage.c.o -c /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/middleware/storage/storage.c
 
 middleware/CMakeFiles/middleware.dir/storage/storage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/middleware.dir/storage/storage.c.i"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/middleware && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Casper/Desktop/TEI_staj/project/middleware/storage/storage.c > CMakeFiles/middleware.dir/storage/storage.c.i
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/middleware && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/middleware/storage/storage.c > CMakeFiles/middleware.dir/storage/storage.c.i
 
 middleware/CMakeFiles/middleware.dir/storage/storage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/middleware.dir/storage/storage.c.s"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/middleware && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Casper/Desktop/TEI_staj/project/middleware/storage/storage.c -o CMakeFiles/middleware.dir/storage/storage.c.s
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/middleware && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/middleware/storage/storage.c -o CMakeFiles/middleware.dir/storage/storage.c.s
 
 middleware/CMakeFiles/middleware.dir/utils/utils.c.o: middleware/CMakeFiles/middleware.dir/flags.make
-middleware/CMakeFiles/middleware.dir/utils/utils.c.o: /mnt/c/Users/Casper/Desktop/TEI_staj/project/middleware/utils/utils.c
+middleware/CMakeFiles/middleware.dir/utils/utils.c.o: /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/middleware/utils/utils.c
 middleware/CMakeFiles/middleware.dir/utils/utils.c.o: middleware/CMakeFiles/middleware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object middleware/CMakeFiles/middleware.dir/utils/utils.c.o"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/middleware && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT middleware/CMakeFiles/middleware.dir/utils/utils.c.o -MF CMakeFiles/middleware.dir/utils/utils.c.o.d -o CMakeFiles/middleware.dir/utils/utils.c.o -c /mnt/c/Users/Casper/Desktop/TEI_staj/project/middleware/utils/utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object middleware/CMakeFiles/middleware.dir/utils/utils.c.o"
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/middleware && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT middleware/CMakeFiles/middleware.dir/utils/utils.c.o -MF CMakeFiles/middleware.dir/utils/utils.c.o.d -o CMakeFiles/middleware.dir/utils/utils.c.o -c /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/middleware/utils/utils.c
 
 middleware/CMakeFiles/middleware.dir/utils/utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/middleware.dir/utils/utils.c.i"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/middleware && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Casper/Desktop/TEI_staj/project/middleware/utils/utils.c > CMakeFiles/middleware.dir/utils/utils.c.i
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/middleware && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/middleware/utils/utils.c > CMakeFiles/middleware.dir/utils/utils.c.i
 
 middleware/CMakeFiles/middleware.dir/utils/utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/middleware.dir/utils/utils.c.s"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/middleware && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Casper/Desktop/TEI_staj/project/middleware/utils/utils.c -o CMakeFiles/middleware.dir/utils/utils.c.s
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/middleware && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/middleware/utils/utils.c -o CMakeFiles/middleware.dir/utils/utils.c.s
 
 # Object files for target middleware
 middleware_OBJECTS = \
@@ -125,19 +125,19 @@ middleware/libmiddleware.a: middleware/CMakeFiles/middleware.dir/storage/storage
 middleware/libmiddleware.a: middleware/CMakeFiles/middleware.dir/utils/utils.c.o
 middleware/libmiddleware.a: middleware/CMakeFiles/middleware.dir/build.make
 middleware/libmiddleware.a: middleware/CMakeFiles/middleware.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libmiddleware.a"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/middleware && $(CMAKE_COMMAND) -P CMakeFiles/middleware.dir/cmake_clean_target.cmake
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/middleware && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/middleware.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libmiddleware.a"
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/middleware && $(CMAKE_COMMAND) -P CMakeFiles/middleware.dir/cmake_clean_target.cmake
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/middleware && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/middleware.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 middleware/CMakeFiles/middleware.dir/build: middleware/libmiddleware.a
 .PHONY : middleware/CMakeFiles/middleware.dir/build
 
 middleware/CMakeFiles/middleware.dir/clean:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/middleware && $(CMAKE_COMMAND) -P CMakeFiles/middleware.dir/cmake_clean.cmake
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/middleware && $(CMAKE_COMMAND) -P CMakeFiles/middleware.dir/cmake_clean.cmake
 .PHONY : middleware/CMakeFiles/middleware.dir/clean
 
 middleware/CMakeFiles/middleware.dir/depend:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Casper/Desktop/TEI_staj/project /mnt/c/Users/Casper/Desktop/TEI_staj/project/middleware /mnt/c/Users/Casper/Desktop/TEI_staj/project/build /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/middleware /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/middleware/CMakeFiles/middleware.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/middleware /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/middleware /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/middleware/CMakeFiles/middleware.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : middleware/CMakeFiles/middleware.dir/depend
 

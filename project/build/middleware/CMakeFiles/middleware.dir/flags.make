@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/mnt/c/Users/Casper/Desktop/TEI_staj/project/middleware -I/mnt/c/Users/Casper/Desktop/TEI_staj/project/driver -I/mnt/c/Users/Casper/Desktop/TEI_staj/project/interfaces
+C_INCLUDES = -I/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/middleware -I/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/driver -I/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/interfaces
 
 C_FLAGS = 
 

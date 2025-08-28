@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/Casper/Desktop/TEI_staj/project/driver
+# Install script for directory: /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,7 +1,7 @@
 middleware/CMakeFiles/middleware.dir/auth_midware/auth_midware.c.o: \
- /mnt/c/Users/Casper/Desktop/TEI_staj/project/middleware/auth_midware/auth_midware.c \
+ /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/middleware/auth_midware/auth_midware.c \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/Casper/Desktop/TEI_staj/project/middleware/auth_midware/auth_midware.h \
+ /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/middleware/auth_midware/auth_midware.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

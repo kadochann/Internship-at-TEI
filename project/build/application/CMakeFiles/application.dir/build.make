@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Casper/Desktop/TEI_staj/project
+CMAKE_SOURCE_DIR = /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Casper/Desktop/TEI_staj/project/build
+CMAKE_BINARY_DIR = /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build
 
 # Include any dependencies generated for this target.
 include application/CMakeFiles/application.dir/depend.make
@@ -70,60 +70,60 @@ include application/CMakeFiles/application.dir/progress.make
 include application/CMakeFiles/application.dir/flags.make
 
 application/CMakeFiles/application.dir/main/main.c.o: application/CMakeFiles/application.dir/flags.make
-application/CMakeFiles/application.dir/main/main.c.o: /mnt/c/Users/Casper/Desktop/TEI_staj/project/application/main/main.c
+application/CMakeFiles/application.dir/main/main.c.o: /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/application/main/main.c
 application/CMakeFiles/application.dir/main/main.c.o: application/CMakeFiles/application.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object application/CMakeFiles/application.dir/main/main.c.o"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/application && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT application/CMakeFiles/application.dir/main/main.c.o -MF CMakeFiles/application.dir/main/main.c.o.d -o CMakeFiles/application.dir/main/main.c.o -c /mnt/c/Users/Casper/Desktop/TEI_staj/project/application/main/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object application/CMakeFiles/application.dir/main/main.c.o"
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/application && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT application/CMakeFiles/application.dir/main/main.c.o -MF CMakeFiles/application.dir/main/main.c.o.d -o CMakeFiles/application.dir/main/main.c.o -c /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/application/main/main.c
 
 application/CMakeFiles/application.dir/main/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/application.dir/main/main.c.i"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/application && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Casper/Desktop/TEI_staj/project/application/main/main.c > CMakeFiles/application.dir/main/main.c.i
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/application && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/application/main/main.c > CMakeFiles/application.dir/main/main.c.i
 
 application/CMakeFiles/application.dir/main/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/application.dir/main/main.c.s"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/application && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Casper/Desktop/TEI_staj/project/application/main/main.c -o CMakeFiles/application.dir/main/main.c.s
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/application && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/application/main/main.c -o CMakeFiles/application.dir/main/main.c.s
 
 application/CMakeFiles/application.dir/commands/commands.c.o: application/CMakeFiles/application.dir/flags.make
-application/CMakeFiles/application.dir/commands/commands.c.o: /mnt/c/Users/Casper/Desktop/TEI_staj/project/application/commands/commands.c
+application/CMakeFiles/application.dir/commands/commands.c.o: /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/application/commands/commands.c
 application/CMakeFiles/application.dir/commands/commands.c.o: application/CMakeFiles/application.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object application/CMakeFiles/application.dir/commands/commands.c.o"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/application && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT application/CMakeFiles/application.dir/commands/commands.c.o -MF CMakeFiles/application.dir/commands/commands.c.o.d -o CMakeFiles/application.dir/commands/commands.c.o -c /mnt/c/Users/Casper/Desktop/TEI_staj/project/application/commands/commands.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object application/CMakeFiles/application.dir/commands/commands.c.o"
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/application && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT application/CMakeFiles/application.dir/commands/commands.c.o -MF CMakeFiles/application.dir/commands/commands.c.o.d -o CMakeFiles/application.dir/commands/commands.c.o -c /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/application/commands/commands.c
 
 application/CMakeFiles/application.dir/commands/commands.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/application.dir/commands/commands.c.i"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/application && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Casper/Desktop/TEI_staj/project/application/commands/commands.c > CMakeFiles/application.dir/commands/commands.c.i
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/application && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/application/commands/commands.c > CMakeFiles/application.dir/commands/commands.c.i
 
 application/CMakeFiles/application.dir/commands/commands.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/application.dir/commands/commands.c.s"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/application && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Casper/Desktop/TEI_staj/project/application/commands/commands.c -o CMakeFiles/application.dir/commands/commands.c.s
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/application && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/application/commands/commands.c -o CMakeFiles/application.dir/commands/commands.c.s
 
 application/CMakeFiles/application.dir/scheduler/scheduler.c.o: application/CMakeFiles/application.dir/flags.make
-application/CMakeFiles/application.dir/scheduler/scheduler.c.o: /mnt/c/Users/Casper/Desktop/TEI_staj/project/application/scheduler/scheduler.c
+application/CMakeFiles/application.dir/scheduler/scheduler.c.o: /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/application/scheduler/scheduler.c
 application/CMakeFiles/application.dir/scheduler/scheduler.c.o: application/CMakeFiles/application.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object application/CMakeFiles/application.dir/scheduler/scheduler.c.o"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/application && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT application/CMakeFiles/application.dir/scheduler/scheduler.c.o -MF CMakeFiles/application.dir/scheduler/scheduler.c.o.d -o CMakeFiles/application.dir/scheduler/scheduler.c.o -c /mnt/c/Users/Casper/Desktop/TEI_staj/project/application/scheduler/scheduler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object application/CMakeFiles/application.dir/scheduler/scheduler.c.o"
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/application && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT application/CMakeFiles/application.dir/scheduler/scheduler.c.o -MF CMakeFiles/application.dir/scheduler/scheduler.c.o.d -o CMakeFiles/application.dir/scheduler/scheduler.c.o -c /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/application/scheduler/scheduler.c
 
 application/CMakeFiles/application.dir/scheduler/scheduler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/application.dir/scheduler/scheduler.c.i"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/application && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Casper/Desktop/TEI_staj/project/application/scheduler/scheduler.c > CMakeFiles/application.dir/scheduler/scheduler.c.i
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/application && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/application/scheduler/scheduler.c > CMakeFiles/application.dir/scheduler/scheduler.c.i
 
 application/CMakeFiles/application.dir/scheduler/scheduler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/application.dir/scheduler/scheduler.c.s"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/application && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Casper/Desktop/TEI_staj/project/application/scheduler/scheduler.c -o CMakeFiles/application.dir/scheduler/scheduler.c.s
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/application && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/application/scheduler/scheduler.c -o CMakeFiles/application.dir/scheduler/scheduler.c.s
 
 application/CMakeFiles/application.dir/state_machine/state_machine.c.o: application/CMakeFiles/application.dir/flags.make
-application/CMakeFiles/application.dir/state_machine/state_machine.c.o: /mnt/c/Users/Casper/Desktop/TEI_staj/project/application/state_machine/state_machine.c
+application/CMakeFiles/application.dir/state_machine/state_machine.c.o: /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/application/state_machine/state_machine.c
 application/CMakeFiles/application.dir/state_machine/state_machine.c.o: application/CMakeFiles/application.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object application/CMakeFiles/application.dir/state_machine/state_machine.c.o"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/application && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT application/CMakeFiles/application.dir/state_machine/state_machine.c.o -MF CMakeFiles/application.dir/state_machine/state_machine.c.o.d -o CMakeFiles/application.dir/state_machine/state_machine.c.o -c /mnt/c/Users/Casper/Desktop/TEI_staj/project/application/state_machine/state_machine.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object application/CMakeFiles/application.dir/state_machine/state_machine.c.o"
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/application && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT application/CMakeFiles/application.dir/state_machine/state_machine.c.o -MF CMakeFiles/application.dir/state_machine/state_machine.c.o.d -o CMakeFiles/application.dir/state_machine/state_machine.c.o -c /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/application/state_machine/state_machine.c
 
 application/CMakeFiles/application.dir/state_machine/state_machine.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/application.dir/state_machine/state_machine.c.i"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/application && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Casper/Desktop/TEI_staj/project/application/state_machine/state_machine.c > CMakeFiles/application.dir/state_machine/state_machine.c.i
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/application && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/application/state_machine/state_machine.c > CMakeFiles/application.dir/state_machine/state_machine.c.i
 
 application/CMakeFiles/application.dir/state_machine/state_machine.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/application.dir/state_machine/state_machine.c.s"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/application && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Casper/Desktop/TEI_staj/project/application/state_machine/state_machine.c -o CMakeFiles/application.dir/state_machine/state_machine.c.s
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/application && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/application/state_machine/state_machine.c -o CMakeFiles/application.dir/state_machine/state_machine.c.s
 
 # Object files for target application
 application_OBJECTS = \
@@ -145,18 +145,18 @@ application/application: driver/libdriver.a
 application/application: middleware/libmiddleware.a
 application/application: driver/libdriver.a
 application/application: application/CMakeFiles/application.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable application"
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/application && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/application.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable application"
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/application && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/application.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 application/CMakeFiles/application.dir/build: application/application
 .PHONY : application/CMakeFiles/application.dir/build
 
 application/CMakeFiles/application.dir/clean:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/application && $(CMAKE_COMMAND) -P CMakeFiles/application.dir/cmake_clean.cmake
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/application && $(CMAKE_COMMAND) -P CMakeFiles/application.dir/cmake_clean.cmake
 .PHONY : application/CMakeFiles/application.dir/clean
 
 application/CMakeFiles/application.dir/depend:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Casper/Desktop/TEI_staj/project /mnt/c/Users/Casper/Desktop/TEI_staj/project/application /mnt/c/Users/Casper/Desktop/TEI_staj/project/build /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/application /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/application/CMakeFiles/application.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/application /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/application /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/application/CMakeFiles/application.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : application/CMakeFiles/application.dir/depend
 

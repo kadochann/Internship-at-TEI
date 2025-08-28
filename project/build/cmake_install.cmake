@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/Casper/Desktop/TEI_staj/project
+# Install script for directory: /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,22 +44,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/application/cmake_install.cmake")
+  include("/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/application/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/middleware/cmake_install.cmake")
+  include("/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/middleware/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/driver/cmake_install.cmake")
+  include("/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/driver/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/interfaces/cmake_install.cmake")
+  include("/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/interfaces/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -70,5 +70,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/Casper/Desktop/TEI_staj/project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

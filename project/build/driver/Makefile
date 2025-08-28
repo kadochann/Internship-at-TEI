@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Casper/Desktop/TEI_staj/project
+CMAKE_SOURCE_DIR = /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Casper/Desktop/TEI_staj/project/build
+CMAKE_BINARY_DIR = /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/CMakeFiles /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/driver//CMakeFiles/progress.marks
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 driver/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/CMakeFiles 0
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/CMakeFiles /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/driver//CMakeFiles/progress.marks
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 driver/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 driver/clean
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 driver/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 driver/preinstall
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 driver/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 driver/preinstall
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 driver/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 driver/CMakeFiles/driver.dir/rule:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 driver/CMakeFiles/driver.dir/rule
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 driver/CMakeFiles/driver.dir/rule
 .PHONY : driver/CMakeFiles/driver.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ driver: driver/CMakeFiles/driver.dir/rule
 
 # fast build rule for target.
 driver/fast:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f driver/CMakeFiles/driver.dir/build.make driver/CMakeFiles/driver.dir/build
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f driver/CMakeFiles/driver.dir/build.make driver/CMakeFiles/driver.dir/build
 .PHONY : driver/fast
 
 gpio/gpio.o: gpio/gpio.c.o
@@ -135,7 +135,7 @@ gpio/gpio.o: gpio/gpio.c.o
 
 # target to build an object file
 gpio/gpio.c.o:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f driver/CMakeFiles/driver.dir/build.make driver/CMakeFiles/driver.dir/gpio/gpio.c.o
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f driver/CMakeFiles/driver.dir/build.make driver/CMakeFiles/driver.dir/gpio/gpio.c.o
 .PHONY : gpio/gpio.c.o
 
 gpio/gpio.i: gpio/gpio.c.i
@@ -143,7 +143,7 @@ gpio/gpio.i: gpio/gpio.c.i
 
 # target to preprocess a source file
 gpio/gpio.c.i:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f driver/CMakeFiles/driver.dir/build.make driver/CMakeFiles/driver.dir/gpio/gpio.c.i
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f driver/CMakeFiles/driver.dir/build.make driver/CMakeFiles/driver.dir/gpio/gpio.c.i
 .PHONY : gpio/gpio.c.i
 
 gpio/gpio.s: gpio/gpio.c.s
@@ -151,7 +151,7 @@ gpio/gpio.s: gpio/gpio.c.s
 
 # target to generate assembly for a file
 gpio/gpio.c.s:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f driver/CMakeFiles/driver.dir/build.make driver/CMakeFiles/driver.dir/gpio/gpio.c.s
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f driver/CMakeFiles/driver.dir/build.make driver/CMakeFiles/driver.dir/gpio/gpio.c.s
 .PHONY : gpio/gpio.c.s
 
 timer/timer.o: timer/timer.c.o
@@ -159,7 +159,7 @@ timer/timer.o: timer/timer.c.o
 
 # target to build an object file
 timer/timer.c.o:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f driver/CMakeFiles/driver.dir/build.make driver/CMakeFiles/driver.dir/timer/timer.c.o
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f driver/CMakeFiles/driver.dir/build.make driver/CMakeFiles/driver.dir/timer/timer.c.o
 .PHONY : timer/timer.c.o
 
 timer/timer.i: timer/timer.c.i
@@ -167,7 +167,7 @@ timer/timer.i: timer/timer.c.i
 
 # target to preprocess a source file
 timer/timer.c.i:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f driver/CMakeFiles/driver.dir/build.make driver/CMakeFiles/driver.dir/timer/timer.c.i
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f driver/CMakeFiles/driver.dir/build.make driver/CMakeFiles/driver.dir/timer/timer.c.i
 .PHONY : timer/timer.c.i
 
 timer/timer.s: timer/timer.c.s
@@ -175,7 +175,7 @@ timer/timer.s: timer/timer.c.s
 
 # target to generate assembly for a file
 timer/timer.c.s:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f driver/CMakeFiles/driver.dir/build.make driver/CMakeFiles/driver.dir/timer/timer.c.s
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f driver/CMakeFiles/driver.dir/build.make driver/CMakeFiles/driver.dir/timer/timer.c.s
 .PHONY : timer/timer.c.s
 
 uart/uart.o: uart/uart.c.o
@@ -183,7 +183,7 @@ uart/uart.o: uart/uart.c.o
 
 # target to build an object file
 uart/uart.c.o:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f driver/CMakeFiles/driver.dir/build.make driver/CMakeFiles/driver.dir/uart/uart.c.o
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f driver/CMakeFiles/driver.dir/build.make driver/CMakeFiles/driver.dir/uart/uart.c.o
 .PHONY : uart/uart.c.o
 
 uart/uart.i: uart/uart.c.i
@@ -191,7 +191,7 @@ uart/uart.i: uart/uart.c.i
 
 # target to preprocess a source file
 uart/uart.c.i:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f driver/CMakeFiles/driver.dir/build.make driver/CMakeFiles/driver.dir/uart/uart.c.i
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f driver/CMakeFiles/driver.dir/build.make driver/CMakeFiles/driver.dir/uart/uart.c.i
 .PHONY : uart/uart.c.i
 
 uart/uart.s: uart/uart.c.s
@@ -199,7 +199,7 @@ uart/uart.s: uart/uart.c.s
 
 # target to generate assembly for a file
 uart/uart.c.s:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f driver/CMakeFiles/driver.dir/build.make driver/CMakeFiles/driver.dir/uart/uart.c.s
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f driver/CMakeFiles/driver.dir/build.make driver/CMakeFiles/driver.dir/uart/uart.c.s
 .PHONY : uart/uart.c.s
 
 # Help Target
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

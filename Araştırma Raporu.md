@@ -153,4 +153,6 @@ target_include_directories(interfaces INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}) </c
 
 Since it doesn't contain any code (.c) files, we can use these libraries as a mid-layer in the hierarchies in order to maintain dependency from upper layer to lower layer.
 
-> Normally, the application depends on the driver. But with interface libraries, we can invert dependencies: the driver can also depend on abstractions defined by the application (through interfaces), without creating circular dependencies
+> Normally, the application depends on the driver. But with interface libraries, we can invert dependencies: the driver can also depend on abstractions defined by the application (through interfaces), without creating circular dependencies.
+
+

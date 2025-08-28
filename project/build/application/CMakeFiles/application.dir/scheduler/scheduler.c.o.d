@@ -1,5 +1,5 @@
 application/CMakeFiles/application.dir/scheduler/scheduler.c.o: \
- /mnt/c/Users/Casper/Desktop/TEI_staj/project/application/scheduler/scheduler.c \
+ /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/application/scheduler/scheduler.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -24,8 +24,8 @@ application/CMakeFiles/application.dir/scheduler/scheduler.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /mnt/c/Users/Casper/Desktop/TEI_staj/project/application/scheduler/scheduler.h \
- /mnt/c/Users/Casper/Desktop/TEI_staj/project/driver/gpio/gpio.h \
+ /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/application/scheduler/scheduler.h \
+ /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/driver/gpio/gpio.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \

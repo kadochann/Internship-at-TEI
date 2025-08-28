@@ -1,5 +1,5 @@
 application/CMakeFiles/application.dir/state_machine/state_machine.c.o: \
- /mnt/c/Users/Casper/Desktop/TEI_staj/project/application/state_machine/state_machine.c \
+ /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/application/state_machine/state_machine.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

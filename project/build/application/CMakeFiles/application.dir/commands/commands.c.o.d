@@ -1,5 +1,5 @@
 application/CMakeFiles/application.dir/commands/commands.c.o: \
- /mnt/c/Users/Casper/Desktop/TEI_staj/project/application/commands/commands.c \
+ /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/application/commands/commands.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -24,11 +24,11 @@ application/CMakeFiles/application.dir/commands/commands.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /mnt/c/Users/Casper/Desktop/TEI_staj/project/application/state_machine/state_machine.h \
- /mnt/c/Users/Casper/Desktop/TEI_staj/project/driver/uart/uart.h \
+ /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/application/state_machine/state_machine.h \
+ /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/driver/uart/uart.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /mnt/c/Users/Casper/Desktop/TEI_staj/project/application/commands/commands.h
+ /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/application/commands/commands.h

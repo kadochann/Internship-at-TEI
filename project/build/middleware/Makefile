@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Casper/Desktop/TEI_staj/project
+CMAKE_SOURCE_DIR = /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Casper/Desktop/TEI_staj/project/build
+CMAKE_BINARY_DIR = /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/CMakeFiles /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/middleware//CMakeFiles/progress.marks
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 middleware/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Casper/Desktop/TEI_staj/project/build/CMakeFiles 0
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/CMakeFiles /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/middleware//CMakeFiles/progress.marks
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 middleware/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 middleware/clean
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 middleware/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 middleware/preinstall
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 middleware/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 middleware/preinstall
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 middleware/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 middleware/CMakeFiles/middleware.dir/rule:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 middleware/CMakeFiles/middleware.dir/rule
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 middleware/CMakeFiles/middleware.dir/rule
 .PHONY : middleware/CMakeFiles/middleware.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ middleware: middleware/CMakeFiles/middleware.dir/rule
 
 # fast build rule for target.
 middleware/fast:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f middleware/CMakeFiles/middleware.dir/build.make middleware/CMakeFiles/middleware.dir/build
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f middleware/CMakeFiles/middleware.dir/build.make middleware/CMakeFiles/middleware.dir/build
 .PHONY : middleware/fast
 
 auth_midware/auth_midware.o: auth_midware/auth_midware.c.o
@@ -135,7 +135,7 @@ auth_midware/auth_midware.o: auth_midware/auth_midware.c.o
 
 # target to build an object file
 auth_midware/auth_midware.c.o:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f middleware/CMakeFiles/middleware.dir/build.make middleware/CMakeFiles/middleware.dir/auth_midware/auth_midware.c.o
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f middleware/CMakeFiles/middleware.dir/build.make middleware/CMakeFiles/middleware.dir/auth_midware/auth_midware.c.o
 .PHONY : auth_midware/auth_midware.c.o
 
 auth_midware/auth_midware.i: auth_midware/auth_midware.c.i
@@ -143,7 +143,7 @@ auth_midware/auth_midware.i: auth_midware/auth_midware.c.i
 
 # target to preprocess a source file
 auth_midware/auth_midware.c.i:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f middleware/CMakeFiles/middleware.dir/build.make middleware/CMakeFiles/middleware.dir/auth_midware/auth_midware.c.i
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f middleware/CMakeFiles/middleware.dir/build.make middleware/CMakeFiles/middleware.dir/auth_midware/auth_midware.c.i
 .PHONY : auth_midware/auth_midware.c.i
 
 auth_midware/auth_midware.s: auth_midware/auth_midware.c.s
@@ -151,7 +151,7 @@ auth_midware/auth_midware.s: auth_midware/auth_midware.c.s
 
 # target to generate assembly for a file
 auth_midware/auth_midware.c.s:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f middleware/CMakeFiles/middleware.dir/build.make middleware/CMakeFiles/middleware.dir/auth_midware/auth_midware.c.s
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f middleware/CMakeFiles/middleware.dir/build.make middleware/CMakeFiles/middleware.dir/auth_midware/auth_midware.c.s
 .PHONY : auth_midware/auth_midware.c.s
 
 storage/storage.o: storage/storage.c.o
@@ -159,7 +159,7 @@ storage/storage.o: storage/storage.c.o
 
 # target to build an object file
 storage/storage.c.o:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f middleware/CMakeFiles/middleware.dir/build.make middleware/CMakeFiles/middleware.dir/storage/storage.c.o
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f middleware/CMakeFiles/middleware.dir/build.make middleware/CMakeFiles/middleware.dir/storage/storage.c.o
 .PHONY : storage/storage.c.o
 
 storage/storage.i: storage/storage.c.i
@@ -167,7 +167,7 @@ storage/storage.i: storage/storage.c.i
 
 # target to preprocess a source file
 storage/storage.c.i:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f middleware/CMakeFiles/middleware.dir/build.make middleware/CMakeFiles/middleware.dir/storage/storage.c.i
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f middleware/CMakeFiles/middleware.dir/build.make middleware/CMakeFiles/middleware.dir/storage/storage.c.i
 .PHONY : storage/storage.c.i
 
 storage/storage.s: storage/storage.c.s
@@ -175,7 +175,7 @@ storage/storage.s: storage/storage.c.s
 
 # target to generate assembly for a file
 storage/storage.c.s:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f middleware/CMakeFiles/middleware.dir/build.make middleware/CMakeFiles/middleware.dir/storage/storage.c.s
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f middleware/CMakeFiles/middleware.dir/build.make middleware/CMakeFiles/middleware.dir/storage/storage.c.s
 .PHONY : storage/storage.c.s
 
 utils/utils.o: utils/utils.c.o
@@ -183,7 +183,7 @@ utils/utils.o: utils/utils.c.o
 
 # target to build an object file
 utils/utils.c.o:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f middleware/CMakeFiles/middleware.dir/build.make middleware/CMakeFiles/middleware.dir/utils/utils.c.o
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f middleware/CMakeFiles/middleware.dir/build.make middleware/CMakeFiles/middleware.dir/utils/utils.c.o
 .PHONY : utils/utils.c.o
 
 utils/utils.i: utils/utils.c.i
@@ -191,7 +191,7 @@ utils/utils.i: utils/utils.c.i
 
 # target to preprocess a source file
 utils/utils.c.i:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f middleware/CMakeFiles/middleware.dir/build.make middleware/CMakeFiles/middleware.dir/utils/utils.c.i
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f middleware/CMakeFiles/middleware.dir/build.make middleware/CMakeFiles/middleware.dir/utils/utils.c.i
 .PHONY : utils/utils.c.i
 
 utils/utils.s: utils/utils.c.s
@@ -199,7 +199,7 @@ utils/utils.s: utils/utils.c.s
 
 # target to generate assembly for a file
 utils/utils.c.s:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(MAKE) $(MAKESILENT) -f middleware/CMakeFiles/middleware.dir/build.make middleware/CMakeFiles/middleware.dir/utils/utils.c.s
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(MAKE) $(MAKESILENT) -f middleware/CMakeFiles/middleware.dir/build.make middleware/CMakeFiles/middleware.dir/utils/utils.c.s
 .PHONY : utils/utils.c.s
 
 # Help Target
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/c/Users/Casper/Desktop/TEI_staj/project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

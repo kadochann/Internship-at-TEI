@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/Casper/Desktop/TEI_staj/project/middleware/auth_midware/auth_midware.c" "middleware/CMakeFiles/middleware.dir/auth_midware/auth_midware.c.o" "gcc" "middleware/CMakeFiles/middleware.dir/auth_midware/auth_midware.c.o.d"
-  "/mnt/c/Users/Casper/Desktop/TEI_staj/project/middleware/storage/storage.c" "middleware/CMakeFiles/middleware.dir/storage/storage.c.o" "gcc" "middleware/CMakeFiles/middleware.dir/storage/storage.c.o.d"
-  "/mnt/c/Users/Casper/Desktop/TEI_staj/project/middleware/utils/utils.c" "middleware/CMakeFiles/middleware.dir/utils/utils.c.o" "gcc" "middleware/CMakeFiles/middleware.dir/utils/utils.c.o.d"
+  "/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/middleware/auth_midware/auth_midware.c" "middleware/CMakeFiles/middleware.dir/auth_midware/auth_midware.c.o" "gcc" "middleware/CMakeFiles/middleware.dir/auth_midware/auth_midware.c.o.d"
+  "/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/middleware/storage/storage.c" "middleware/CMakeFiles/middleware.dir/storage/storage.c.o" "gcc" "middleware/CMakeFiles/middleware.dir/storage/storage.c.o.d"
+  "/mnt/c/Users/Casper/Desktop/TEI_staj/Internship-at-TEI/project/middleware/utils/utils.c" "middleware/CMakeFiles/middleware.dir/utils/utils.c.o" "gcc" "middleware/CMakeFiles/middleware.dir/utils/utils.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
